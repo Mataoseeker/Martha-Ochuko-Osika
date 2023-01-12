@@ -13,7 +13,7 @@ const Projects = () => {
     const [navbar, setNavbar] = useState(false);
     return ( 
         <div className="projects">
-                    <nav className="flex mt-8">
+                    <nav className="flex md:mt-8">
                           <br />
                                 <Link to="/" className="md:text-2xl inline text-xl mt-2 text-slate-200 ml-4 md:ml-36 font-serif">Martha Ochuko O.</Link>
                             
@@ -168,8 +168,8 @@ const Projects = () => {
                  <button className="m-3">Tailwindcss</button>
              </span>
              <div className="m-6">
-             <a href="https://martha-osika.netlify.app/" className="md:m-6 m-2 md:text-2xl">Live Link</a>
-             <a href="https://github.com/Mataoseeker/Portfolio" className="md:m-6 m-2 md:text-2xl">GitHub</a>
+             <a href="https://martha-ochuko-osika.netlify.app/" className="md:m-6 m-2 md:text-2xl">Live Link</a>
+             <a href="https://github.com/Mataoseeker/Martha-Ochuko-Osika" className="md:m-6 m-2 md:text-2xl">GitHub</a>
              </div>
              </div>  
             </div>
@@ -196,7 +196,7 @@ const Projects = () => {
         
         </div>
            </main>
-                                    <a href="/resume">
+                                    <Link to="/resume">
                                         <div className="flex justify-center">
                                             <div className="flex mt-14">
                                                 <p className="text-2xl text-slate-300">Resume</p>
@@ -204,7 +204,7 @@ const Projects = () => {
                                             </div>
                                         </div>
 
-                                    </a>
+                                    </Link>
 
 
         </div>

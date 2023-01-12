@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="contact">
            
 
-           <nav className="flex mt-8">
+           <nav className="flex md:mt-8">
                           <br />
                                 <Link to="/" className="md:text-2xl inline text-xl mt-2 text-slate-200 ml-4 md:ml-36 font-serif">Martha Ochuko O.</Link>
                             
@@ -59,8 +59,18 @@ const Contact = () => {
                                     <Link to="/contact" className="text-xl text-slate-200 mt-8 font-serif block md:inline mr-10">Contact</Link>
                                     </div>    
                         </nav>   
+<div>
+    <h1 className="text-6xl text-slate-200 text-center font-serif mt-20 ">Contact</h1>
+    <p className="md:text-2xl p-6 text-center text-lg text-slate-200 font-sans mt-10">I'm currently looking for a new opportunity, my inbox is always open. <br /> Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+    <p className="md:text-4xl text-center text-lg text-slate-200 underline font-sans mt-10">
+         <a href="mailto:marthaosika8@gmail.com">marthaosika8@gmail.com</a>
+    </p>
+    <p className="md:text-4xl text-center text-lg text-slate-200 font-sans mt-10 ">
+        <a href="tel:+2348030694524">+2348030 6945 24</a>
+    </p>
 
-                        
+</div>
+
         </div>
      );
 }

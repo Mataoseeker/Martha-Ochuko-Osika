@@ -6,7 +6,7 @@ const About = () => {
     return ( 
         <div className="about">
             
-            <nav className="flex mt-8">
+            <nav className="flex md:mt-8">
                           <br />
                                 <Link to="/" className="md:text-2xl inline text-xl mt-2 text-slate-200 ml-4 md:ml-36 font-serif">Martha Ochuko O.</Link>
                             
@@ -62,7 +62,7 @@ const About = () => {
 
 
 
-                        <a href="/projects">
+                        <Link to="/projects">
                                         <div className="flex justify-center">
                                             <div className="flex mt-14">
                                                 <p className="text-2xl text-slate-300">Projects</p>
@@ -70,7 +70,7 @@ const About = () => {
                                             </div>
                                         </div>
 
-                        </a>
+                        </Link>
         </div>
      );
 }
