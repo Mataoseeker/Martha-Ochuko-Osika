@@ -61,8 +61,8 @@ const Contact = () => {
                         </nav>   
 <div>
     <h1 className="text-6xl text-slate-200 text-center font-serif mt-20 ">Contact</h1>
-    <p className="md:text-2xl p-6 text-center text-lg text-slate-200 font-sans mt-10">I'm currently looking for a new opportunity, my inbox is always open. <br /> Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
-    <p className="md:text-4xl text-center text-lg text-slate-200 underline font-sans mt-10">
+    <p className="md:text-2xl p-6 text-center text-lg text-slate-200 font-sans mt-10">Say Hi...</p>
+    <p className="md:text-4xl text-center text-lg text-slate-200 underline font-sans mt-6">
          <a href="mailto:marthaosika8@gmail.com">marthaosika8@gmail.com</a>
     </p>
     <p className="md:text-4xl text-center text-lg text-slate-200 font-sans mt-10 ">

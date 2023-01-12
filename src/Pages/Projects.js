@@ -69,6 +69,7 @@ const Projects = () => {
 
             
            <main className="px-16 py-6 md:col-span-2">
+            <h1 className="text-4xl md:text-6xl text-slate-200 font-serif text-center md:mt-20 mt-10 ">Projects</h1>
 
            <div className="mt-8 grid lg:grid-cols-2 md:grid-cols-2 gap-10 ">
 

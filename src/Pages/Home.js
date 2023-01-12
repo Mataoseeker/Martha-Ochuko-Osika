@@ -63,8 +63,8 @@ const Home = () => {
                         
                         <div className="text-center md:mt-28 mt-10 font-serif p-6 text-slate-300">
                             <h1 className="md:text-6xl text-4xl font-bold">Hey There! 👋🏾</h1>
-                            <h2 className="md:text-4xl text-2xl mt-10">I'm a Front End Developer who builds websites <br /> with good interface. 
-                            I am also confident in my ability to come up <br /> with beautiful and responsive designs. </h2>
+                            <h2 className="md:text-4xl text-2xl mt-10 ">I'm Martha Ochuko O. A Front-end Developer, <br /> who is passionate about building beautiful <br /> and responsive websites.
+                            </h2>
                         </div>
                         <div>
                             <div className="flex justify-center">
