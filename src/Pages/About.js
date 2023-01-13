@@ -58,25 +58,35 @@ const About = () => {
                                     <Link to="/contact" className="text-xl text-slate-200 mt-8 font-serif block md:inline mr-10">Contact</Link>
                                     </div>    
                         </nav>   
-                        <div>
+                        <div className="">
+
                             <h1 className="text-4xl md:text-6xl text-slate-200 font-serif text-center md:mt-20 mt-10 ">About Me</h1>
-                            <p className="text-2xl md:text-2xl  text-slate-300 font-serif md:mt-10 p-6 md:ml-44 md:text-justify text-center ">Hi! I am Martha Ochuko O.  A Frontend Developer with a passion for building  <br /> beautiful and responsive websites.I am also a technical writer and a YouTuber  <br /> with a keen eye for details and a love for minimalism. <br /> <br /> I graduated from the University of Benin, studied Computer Engineering.<br /> I strive to be a better developer by writing code, practice by working on projects  <br /> and collaborate on projects. <br /> I am currently looking for an internship or a job as a Frontend Developer.</p>
-
+                            <div className="md:flex">
+                                <img src= {require ("./image.JPG")}  className="md:ml-20 ml-36 w-44 m-5 md:w-80 border rounded-full " alt="my face"/>
+                            <p className="text-2xl md:text-2xl  text-slate-300 font-serif md:mt-28 p-6  md:text-justify text-center ">Hi! I am Martha Ochuko O.  A Frontend Developer with a passion for building  beautiful and responsive websites. <br /> I am also a technical writer and a YouTuber   with a keen eye for details and a love for minimalism. <br /> <br /> I graduated from the University of Benin, studied Computer Engineering.<br /> I strive to be a better developer by writing code, practice by working on projects  <br /> and collaborate on projects. <br /> I am currently looking for an internship or a job as a Frontend Developer.</p>
+                            </div>
                             <h1 className="text-2xl md:text-4xl text-slate-200 font-serif text-center md:mt-20 mt-10">Languages & Tools </h1>
-                        <p className="text-slate-300 text-center font-serif md:mt-10 mt-8 text-2xl">
-                            Here are a list of tools that i have worked with:
-                            <ul className="text-center mt-5 ">
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Tailwindcss</li>
-                                <li>JavaScript</li>
-                                <li>Reactjs</li>
-                                <li>Vuejs</li>
-                                <li>Git/GitHub</li>
-                               
 
-                            </ul>
+                            <div className="mt-8 ">
+                            <div className="">
+                        <p className="text-slate-300 text-center text-2xl">Here are a list of tools that i have worked with:</p>
+                        <p className="text-slate-300 text-center col-span-3 bg-gray-100 card border rounded-sm md:grid md:mt-10 grid-cols-3 mt-8 text-2xl">     
+                                
+                                <img src= {require ("./images/html.png")}  className="ml-36 w-20 m-5 md:w-20 border rounded-lg " alt="my face"/>
+                                
+                                <img src= {require ("./images/css.png")}  className="ml-36 w-20 m-5 md:w-20 border rounded-lg " alt="my face"/>
+                               
+                                <img src= {require ("./images/js.png")}  className="ml-36 w-20 m-5 md:w-20 border rounded-lg " alt="my face"/>
+
+                                <img src= {require ("./images/react.png")}  className="ml-36 w-20 m-5 md:w-20 border rounded-lg " alt="my face"/>
+
+                                <img src= {require ("./images/tailwind.jpg")}  className="ml-36 w-20 m-5 md:w-20 border rounded-lg " alt="my face"/>
+
+                                <img src= {require ("./images/git.png")}  className="ml-36 w-20 m-5 md:w-20 border rounded-lg " alt="my face"/>
+
                         </p>
+                        </div>
+                        </div>
                         </div>
 
 
